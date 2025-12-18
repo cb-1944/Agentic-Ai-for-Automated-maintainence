@@ -1,0 +1,109 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    margin: 0;
+    background: #ffffff;
+    font-family: Inter, system-ui, sans-serif;
+    color: #000000;
+  }
+  
+  .page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    width: 420px;
+    border: 1px solid #e5e7eb;
+    padding: 28px;
+    border-radius: 12px;
+  }
+  
+  header h1 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  header p {
+    font-size: 13px;
+    color: #6b7280;
+    margin-top: 4px;
+  }
+  
+  .chat {
+    margin: 24px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .message {
+    padding: 12px 14px;
+    font-size: 14px;
+    border-radius: 8px;
+    max-width: 85%;
+  }
+  
+  .bot {
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+  }
+  
+  .user {
+    background: #000000;
+    color: #ffffff;
+    align-self: flex-end;
+  }
+  
+  footer {
+    display: flex;
+    gap: 8px;
+  }
+  
+  input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #000000;
+  }
+  
+  button {
+    padding: 12px 16px;
+    background: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #111827;
+  }
+  
+  .mic {
+    background: #ffffff;
+    color: #000000;
+    border: 1px solid #e5e7eb;
+  }
+  
+  .mic:hover {
+    background: #f3f4f6;
+  }
+  
+  .confirmation {
+    margin-top: 16px;
+    border: 1px solid #e5e7eb;
+    padding: 12px;
+    font-size: 14px;
+  }
+  
